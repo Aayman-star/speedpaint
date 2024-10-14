@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import logo from "@/assets/logo.png";
+import Link from "next/link";
 import { LogInButton, SignUpButton, Blog } from "./Buttons";
 const Header = () => {
   return (
@@ -8,8 +10,12 @@ const Header = () => {
         <Image src={logo} alt="logo" />
         <div className="flex items-center gap-x-4">
           <Blog />
+
           <LogInButton />
-          <SignUpButton />
+
+          <Link href="/signup">
+            <SignUpButton />
+          </Link>
         </div>
       </div>
     </div>
