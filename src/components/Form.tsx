@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import googlelogo from "@/assets/googlelogo.svg";
 
-const Form = () => {
+const SignUpForm = () => {
   return (
     <div className="w-[40%]">
       <div className="w-[480px] mb-12 mx-auto">
@@ -83,4 +83,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default SignUpForm;
