@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={``}>{children}</body>
+      <body className={`w-full bg-[#0A0A0A]`}>{children}</body>
     </html>
   );
 }

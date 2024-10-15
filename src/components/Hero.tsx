@@ -2,7 +2,7 @@ import { redhat } from "@/lib/fonts";
 import UploadSection from "./UploadSection";
 const Hero = () => {
   return (
-    <div className="w-[90rem] h-[1852px] flex flex-col items-center mx-auto">
+    <div className="w-full h-[1852px] flex flex-col items-center mx-auto">
       <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#0A0A0A_40%,#63e_100%)]"></div>
       {/* <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div> */}
       <h1
