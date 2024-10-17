@@ -10,8 +10,9 @@ const Header = () => {
         <Image src={logo} alt="logo" />
         <div className="flex items-center gap-x-4">
           <Blog />
-
-          <LogInButton />
+          <Link href="/login">
+            <LogInButton />
+          </Link>
 
           <Link href="/signup">
             <SignUpButton />

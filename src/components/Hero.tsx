@@ -1,10 +1,13 @@
 import { redhat } from "@/lib/fonts";
+import Videos from "./Videos";
 import UploadSection from "./UploadSection";
 const Hero = () => {
   return (
-    <div className="w-full h-[1852px] flex flex-col items-center mx-auto">
-      <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#0A0A0A_40%,#63e_100%)]"></div>
-      {/* <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div> */}
+    <div className="w-full h-auto flex flex-col items-center mx-auto relative">
+      {/* <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#0A0A0A_40%,#63e_100%)]"></div> */}
+      <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(131%_131%_at_50%_-12%,#0A0A0A_40%,#533EAD_41%)]"></div>
+      <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(162%_162%_at_50%_100%,#0A0A0A_29%,#BC3CF8_30%,transparent_37.5%)] "></div>
+
       <h1
         className={`${redhat.className} text-white mt-[5.375rem] text-[4rem] max-w-[68.5rem] h-[15rem] text-center leading-[5rem]`}>
         Convert Any Image to a{" "}
@@ -18,6 +21,7 @@ const Hero = () => {
         pick your options.
       </p>
       <UploadSection />
+      <Videos />
     </div>
   );
 };
